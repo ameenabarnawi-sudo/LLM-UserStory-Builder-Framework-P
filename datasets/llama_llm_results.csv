@@ -1,0 +1,101 @@
+input_id,model,http_status,raw_response
+M001,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M002,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M003,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M004,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M005,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M006,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M007,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M008,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M009,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M010,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M011,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M012,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M013,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M014,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M015,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M016,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M017,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M018,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M019,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M020,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M021,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M022,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M023,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M024,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M025,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M026,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M027,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M028,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M029,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M030,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M031,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M032,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M033,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M034,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M035,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M036,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M037,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M038,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M039,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M040,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M041,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M042,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M043,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M044,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M045,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M046,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M047,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M048,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M049,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"
+M050,llama-3.3-70b-versatile,404,"{""error"":{""message"":""The model `llama-3.3-70b-versatile` does not exist or you do not have access to it."",""type"":""invalid_request_error"",""code"":""model_not_found""}}
+"

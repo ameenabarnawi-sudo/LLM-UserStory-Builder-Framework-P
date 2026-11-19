@@ -1,0 +1,130 @@
+
+========================
+FILE: complete UStAI dataset.csv
+COLUMNS:
+ID
+User story
+LLM
+title
+Full actor
+tokens
+Total records: 3440
+Missing stories: 0
+Unique stories: 3341
+
+========================
+FILE: UStAI-annotated_updated.csv
+COLUMNS:
+ID
+Abstract
+US_num
+LLM
+role_shorten
+User story
+Implied ethical needs
+Non-Functional Requirements
+atomic
+minimal
+Conceptually sound
+Problem-oriented
+Unambiguous
+Conflict-free
+Conflict-free, us
+Estimatable
+Independent
+Unique
+Unique, us
+Meas-ends relation
+Meas-ends relation, us
+Total records: 1260
+Missing stories: 0
+Unique stories: 1259
+Missing abstracts: 0
+Unique abstracts: 42
+
+========================
+FILE: UStAI-annotated.csv
+COLUMNS:
+
+Id
+LLM
+role_shorten
+User story
+Implied ethical needs
+Non-Functional Requirements
+atomic
+minimal
+Conceptually sound
+Problem-oriented
+Unambiguous
+Conflict-free
+Conflict-free, us
+Estimatable
+Independent
+Unique
+Unique, us
+Meas-ends relation
+Meas-ends relation, us
+Total records: 1260
+Missing stories: 0
+Unique stories: 1259
+
+========================
+FILE: summery.csv
+COLUMNS:
+ID
+domain
+title
+abstract
+Related (or similar) to the dataset
+Venue
+Doi
+annotated
+Total records: 101
+Missing stories: 0
+Unique stories: 0
+
+ABSTRACT DISTRIBUTION
+Unique abstracts: 42
+Abstract 01: 30 user stories
+Abstract 02: 30 user stories
+Abstract 03: 30 user stories
+Abstract 04: 30 user stories
+Abstract 05: 30 user stories
+Abstract 06: 30 user stories
+Abstract 07: 30 user stories
+Abstract 08: 30 user stories
+Abstract 09: 30 user stories
+Abstract 10: 30 user stories
+Abstract 11: 30 user stories
+Abstract 12: 30 user stories
+Abstract 13: 30 user stories
+Abstract 14: 30 user stories
+Abstract 15: 30 user stories
+Abstract 16: 30 user stories
+Abstract 17: 30 user stories
+Abstract 18: 30 user stories
+Abstract 19: 30 user stories
+Abstract 20: 30 user stories
+Abstract 21: 30 user stories
+Abstract 22: 30 user stories
+Abstract 23: 30 user stories
+Abstract 24: 30 user stories
+Abstract 25: 30 user stories
+Abstract 26: 30 user stories
+Abstract 27: 30 user stories
+Abstract 28: 30 user stories
+Abstract 29: 30 user stories
+Abstract 30: 30 user stories
+Abstract 31: 30 user stories
+Abstract 32: 30 user stories
+Abstract 33: 30 user stories
+Abstract 34: 30 user stories
+Abstract 35: 30 user stories
+Abstract 36: 30 user stories
+Abstract 37: 30 user stories
+Abstract 38: 30 user stories
+Abstract 39: 30 user stories
+Abstract 40: 30 user stories
+Abstract 41: 30 user stories
+Abstract 42: 30 user stories

@@ -1,0 +1,72 @@
+{
+  "M011": {
+    "role": "As a driver",
+    "goal": "I want the ADAS to adapt its forward collision avoidance behavior based on my driving intention and behavior",
+    "benefit": "I can experience safer and more personalized driving assistance that is better accepted by me",
+    "acceptanceCriteria": "The system must use a Gaussian Mixture Model to recognize driver intention and behavior from real-time driving data and adjust FCA control parameters accordingly",
+    "priority": "High",
+    "dependencies": "Driver behavior data collection module, real-time driving simulator",
+    "storyPoints": 5
+  },
+  "M013": {
+    "role": "Virginia public health official",
+    "goal": "recommend mobile vaccination site placement in real-time to target under‑vaccinated populations",
+    "benefit": "increase vaccine uptake among hesitant groups and reduce the risk of new variants",
+    "acceptanceCriteria": "The model recommends sites that are most likely to be visited by unvaccinated individuals and maximize uptake among hesitant groups.",
+    "priority": "High",
+    "dependencies": ""
+  },
+  "M014": {
+    "role": "As a music curator",
+    "goal": "to predict the success of playlists using a machine learning-based approach",
+    "benefit": "to enhance playlist creation and improve the music listening experience for users",
+    "acceptanceCriteria": "The model predicts playlist success with at least 89.6% overall accuracy, 92.0% accuracy for popular playlists, and 89.4% accuracy for unpopular playlists.",
+    "priority": "",
+    "dependencies": ""
+  },
+  "M016": {
+    "role": "Transportation Planner",
+    "goal": "Predict hourly taxi and Uber ridership per zip-code area using an XGBoost model",
+    "benefit": "Enable optimal taxi dispatch and city planning decisions by accurately estimating demand",
+    "acceptanceCriteria": "",
+    "priority": "High",
+    "dependencies": "Access to NYC taxi and Uber trip dataset (April-September 2014)",
+    "storyPoints": 8
+  },
+  "M027": {
+    "role": "Neonatal nurse",
+    "goal": "identify unhealthy newborns using a non-invasive cry diagnostic system",
+    "benefit": "enable early detection and timely intervention for neonatal health issues",
+    "acceptanceCriteria": "The system must achieve an F-measure of at least 80% when classifying unhealthy newborns from cry audio signals.",
+    "priority": "High",
+    "dependencies": "",
+    "storyPoints": 5
+  },
+  "M034": {
+    "role": "Data Scientist",
+    "goal": "develop a methodology to quantify political bias in tweets using a bias subspace approach",
+    "benefit": "provide insights into political bias patterns and support fairer ML models",
+    "acceptanceCriteria": "The system can compute a political bias subspace, assign bias scores to tweets from the 26 GB corpus, and demonstrate that presidential candidate tweets show higher bias than other politicians of the same party.",
+    "priority": "High",
+    "dependencies": "Access to the 26 GB tweet corpus from Republican and Democratic politicians",
+    "storyPoints": 8
+  },
+  "M048": {
+    "role": "As a data scientist",
+    "goal": "build predictive models for drug abuse using personality traits and demographic data",
+    "benefit": "to enable early intervention and prevention of drug abuse",
+    "acceptanceCriteria": "The models (logistic regression, decision tree, random forest) must predict drug abuse probability with acceptable accuracy and identify key factors such as sensation seeking and country of origin",
+    "priority": "High",
+    "dependencies": "UCI drug consumption dataset",
+    "storyPoints": 5
+  },
+  "M050": {
+    "role": "As a dermatologist",
+    "goal": "detect and classify skin lesions accurately using a deep learning model",
+    "benefit": "improve early detection of skin cancer and patient outcomes",
+    "acceptanceCriteria": "The model must achieve at least 86.91% accuracy on the ISIC 2017 HAM10000 test set",
+    "priority": "High",
+    "dependencies": "ISIC 2017 HAM10000 dataset",
+    "storyPoints": 5
+  }
+}

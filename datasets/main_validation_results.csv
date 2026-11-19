@@ -1,0 +1,1149 @@
+input_id,attempt,model,http_status,finish_reason,json_valid,required_complete,schema_valid,markdown_fences,errors,generated_content
+M001,initial,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""As an economic historian"",
+  ""goal"": ""I want to accurately and efficiently match historical records and produce an unbiased dataset of links for analysis"",
+  ""benefit"": ""so that I can conduct research into intergenerational mobility, long‑run effects of early life conditions, assimilation, discrimination, and returns to education"",
+  ""acceptanceCriteria"": ""The matching algorithm must use a training set to tune classification and text comparison, minimize false positives and false negatives, and produce a linked dataset that can be replicated across different census sources"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to historical census data and a sufficient training dataset"",
+  ""storyPoints"": 8
+}
+```"
+M002,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""policy analyst"",
+  ""goal"": ""evaluate the impact of interest rate changes on loan demand and loan size in microfinance institutions"",
+  ""benefit"": ""to inform policymakers whether eliminating subsidies by raising rates is viable without reducing poor's access to credit"",
+  ""acceptanceCriteria"": [
+    ""Loan demand curves are downward sloping with respect to interest rates"",
+    ""Demand elasticity is steeper for price increases compared to standard rates"",
+    ""Loan size is more responsive to changes in loan maturity than to changes in interest rates""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Randomized trial data from a consumer lender in South Africa"",
+  ""storyPoints"": 5
+}"
+M003,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""content moderator"",
+  ""goal"": ""detect whether a conversation thread will incite a toxic comment before it happens"",
+  ""benefit"": ""enable preemptive moderation to reduce exposure to toxic content"",
+  ""acceptanceCriteria"": ""The system must provide a prediction for each conversation thread indicating the likelihood of future toxic comments, and the prediction must be available before any toxic comment is posted."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing dataset of Wikipedia contributor conversations and labeled toxic comments"",
+  ""storyPoints"": 5
+}"
+M004,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a healthcare provider"",
+  ""goal"": ""detect anomalies in wearable sensor data using unsupervised clustering"",
+  ""benefit"": ""improve early detection of health issues and increase efficiency of health services"",
+  ""acceptanceCriteria"": ""The system should identify anomalies in sensor data using K-means or K-medoids clustering and flag them for review"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Integration with wearable sensor data streams"",
+  ""storyPoints"": 5
+}"
+M005,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a researcher studying political news across multiple languages"",
+  ""goal"": ""I want to automatically classify news articles into political and other categories using URL section cues"",
+  ""benefit"": ""so that I can efficiently analyze large volumes of news without costly manual labeling"",
+  ""acceptanceCriteria"": [
+    ""The classifier can identify political news articles with accuracy comparable to manually coded labels"",
+    ""The system can also classify articles into sports, entertainment, and economic categories"",
+    ""The classification process is scalable to large datasets and works across multiple languages""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing dataset of approximately 870,000 news URLs with hand‑labelled articles from Italy, Germany, Netherlands, and Poland"",
+  ""storyPoints"": 5
+}"
+M006,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Client"",
+  ""goal"": ""evaluate freelancers using a multidimensional assessment framework that considers current information and past job performance"",
+  ""benefit"": ""improved hiring decisions leading to higher quality work and reduced risk of hiring unsuitable freelancers"",
+  ""acceptanceCriteria"": [
+    ""The assessment framework must generate a composite score for each freelancer based on multiple dimensions"",
+    ""The framework must incorporate both current freelancer data and historical job performance"",
+    ""The resulting scores must be presented in a clear, actionable format for the client"",
+    ""The framework’s performance should be demonstrably better than the baseline rating system""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to freelancer profiles and historical job data from the marketplace"",
+  ""storyPoints"": 5
+}"
+M007,initial,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""Security Analyst"",
+  ""goal"": ""Detect compromised user accounts by monitoring login behavior for anomalies"",
+  ""benefit"": ""Early identification of account compromise reduces risk of data theft and protects user trust"",
+  ""acceptanceCriteria"": [
+    ""The anomaly model must analyze login events in real time"",
+    ""An alert is generated when a login deviates from the user’s historical pattern"",
+    ""The model achieves at least 90% sensitivity and 95% specificity on validation data"",
+    ""Overall accuracy of the detection system is above 92%""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""Historical login data ingestion pipeline"",
+    ""Anomaly detection model training framework""
+  ],
+  ""storyPoints"": 8
+}
+```"
+M008,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Recruiter"",
+  ""goal"": ""automatically shortlist candidates based on personality quiz results and CV analysis"",
+  ""benefit"": ""reduces manual screening effort and ensures fair, data-driven hiring decisions"",
+  ""acceptanceCriteria"": [
+    ""Admin can upload CV datasets for training"",
+    ""Candidates can register and complete an online MCQ personality test"",
+    ""System applies logistic regression to evaluate eligibility"",
+    ""Shortlisted candidates are displayed to the recruiter"",
+    ""Results are emailed to both candidates and admin""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing user registration and email service"",
+  ""storyPoints"": 8
+}"
+M009,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Sales Planner"",
+  ""goal"": ""to generate accurate weekly sales predictions for outgoing invoices using an ARIMA model"",
+  ""benefit"": ""enables optimized sales and logistics planning, reducing costs and maximizing revenue"",
+  ""acceptanceCriteria"": [
+    ""Data mart built on top of the data warehouse and receives daily loads of outgoing invoices and uninvoiced shipments"",
+    ""Data is aggregated on a weekly level and includes product, sales market, customer, quantity, and date"",
+    ""ARIMA model is applied to the aggregated data to produce weekly sales forecasts for outgoing invoices"",
+    ""Forecasts are available for use in sales and logistics planning and are validated against actual invoice data"",
+    ""Data preparation steps are documented and reproducible""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""Operational data warehouse"",
+    ""Daily data load pipeline for invoices and shipments""
+  ],
+  ""storyPoints"": 5
+}"
+M010,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a university administrator"",
+  ""goal"": ""I want to select the most accurate and stable face recognition algorithm for the attendance system"",
+  ""benefit"": ""so that attendance can be recorded accurately and cheating can be prevented"",
+  ""acceptanceCriteria"": ""The selected algorithm must demonstrate higher accuracy than the current RFID system and maintain stability under varying lighting conditions"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing camera infrastructure"",
+  ""storyPoints"": 5
+}"
+M011,initial,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""As a driver"",
+  ""goal"": ""I want the ADAS to adapt its forward collision avoidance behavior based on my driving intention and behavior"",
+  ""benefit"": ""I can experience safer and more personalized driving assistance that is better accepted by me"",
+  ""acceptanceCriteria"": ""The system must use a Gaussian Mixture Model to recognize driver intention and behavior from real-time driving data and adjust FCA control parameters accordingly"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Driver behavior data collection module, real-time driving simulator"",
+  ""storyPoints"": ""5""
+}"
+M012,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a customs officer"",
+  ""goal"": ""I want to automatically assess HS codes for goods based on product descriptions and HS code taxonomy"",
+  ""benefit"": ""so that I can reduce misclassification, avoid penalties, and speed up clearance processes"",
+  ""acceptanceCriteria"": """",
+  ""priority"": ""High"",
+  ""dependencies"": """",
+  ""storyPoints"": 5
+}"
+M013,initial,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""Virginia public health official"",
+  ""goal"": ""recommend mobile vaccination site placement in real-time to target under‑vaccinated populations"",
+  ""benefit"": ""increase vaccine uptake among hesitant groups and reduce the risk of new variants"",
+  ""acceptanceCriteria"": ""The model recommends sites that are most likely to be visited by unvaccinated individuals and maximize uptake among hesitant groups."",
+  ""priority"": ""High"",
+  ""dependencies"": """",
+  ""storyPoints"": """"
+}"
+M014,initial,openai/gpt-oss-20b,429,,false,false,false,false,API_ERROR_429,
+M014,initial,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""As a music curator"",
+  ""goal"": ""to predict the success of playlists using a machine learning-based approach"",
+  ""benefit"": ""to enhance playlist creation and improve the music listening experience for users"",
+  ""acceptanceCriteria"": ""The model predicts playlist success with at least 89.6% overall accuracy, 92.0% accuracy for popular playlists, and 89.4% accuracy for unpopular playlists."",
+  ""priority"": """",
+  ""dependencies"": """",
+  ""storyPoints"": """"
+}"
+M015,initial,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""Machine Learning Engineer"",
+  ""goal"": ""detect aggressive behavior in real-time on Twitter using a streaming ML framework that adapts incrementally to new data"",
+  ""benefit"": ""improves user safety by quickly identifying and mitigating aggressive content, while maintaining high accuracy and scalability across the entire Twitter Firehose"",
+  ""acceptanceCriteria"": [
+    ""The system must achieve at least 90% accuracy, precision, and recall on real-time Twitter data."",
+    ""The framework should scale to process the full Twitter Firehose (≈778 million tweets/day) using only 3 commodity machines."",
+    ""The model must adapt incrementally to new annotated examples without requiring a full retrain.""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to the Twitter Firehose API and a streaming data pipeline."",
+  ""storyPoints"": 8
+}
+```"
+M016,initial,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""Transportation Planner"",
+  ""goal"": ""Predict hourly taxi and Uber ridership per zip-code area using an XGBoost model"",
+  ""benefit"": ""Enable optimal taxi dispatch and city planning decisions by accurately estimating demand"",
+  ""acceptanceCriteria"": """",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to NYC taxi and Uber trip dataset (April-September 2014)"",
+  ""storyPoints"": ""8""
+}"
+M017,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a researcher in animal behavior"",
+  ""goal"": ""I want to interpret social interactions in animals accurately using contextual data and predictive models"",
+  ""benefit"": ""so that I can better understand animal behavior, support conservation efforts, and improve AI behavior prediction models"",
+  ""acceptanceCriteria"": [
+    ""The system incorporates contextual factors into the interpretation of social interactions"",
+    ""The predictive models improve accuracy compared to baseline methods"",
+    ""The interpretation is applicable across multiple species""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""Access to contextual data"",
+    ""Machine learning framework""
+  ],
+  ""storyPoints"": 5
+}"
+M018,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a forensic linguist"",
+  ""goal"": ""identify the authors behind QAnon posts"",
+  ""benefit"": ""to prevent violent actions by targeting the individuals"",
+  ""acceptanceCriteria"": ""The system can match Q's posts to suspect profiles with a confidence score above a threshold."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Collection of suspect writings and QAnon posts"",
+  ""storyPoints"": 5
+}"
+M019,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""classify types of moving vehicles in a distributed wireless sensor network"",
+  ""benefit"": ""enable accurate real‑time vehicle type detection for traffic monitoring"",
+  ""acceptanceCriteria"": ""Dataset of 820 MB raw time series and 70 MB preprocessed spectral feature vectors is available; spectral feature vectors are extracted; baseline maximum likelihood classifier is implemented and achieves the reported baseline accuracy"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Data collection procedure completed"",
+  ""storyPoints"": 5
+}"
+M020,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""child welfare caseworker"",
+  ""goal"": ""use a clinical decision support system to predict the most appropriate placement type for each youth based on their behavioral health needs and characteristics"",
+  ""benefit"": ""improve placement outcomes by selecting the setting with the highest likelihood of treatment success, thereby enhancing the well‑being of children in care"",
+  ""acceptanceCriteria"": [
+    ""The system provides a placement recommendation for each youth."",
+    ""The recommendation is based on a machine learning model trained on existing data."",
+    ""The model achieves an AUROC greater than 0.70 for distinguishing successful placements."",
+    ""The recommendation is presented within the standard care workflow.""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to historical placement and behavioral health data for each youth."",
+  ""storyPoints"": 5
+}"
+M021,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Conference Organizer"",
+  ""goal"": ""Automatically match reviewers to conference submissions using a common topic model"",
+  ""benefit"": ""Reduce the time spent on reviewer selection and improve the quality of the review process"",
+  ""acceptanceCriteria"": [
+    ""The system must generate reviewer-submission matches based on the common topic model."",
+    ""Matches should demonstrate higher relevance compared to previous bag-of-words or probabilistic topic models."",
+    ""The matching process should complete within a reasonable time frame for the organizer.""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": """",
+  ""storyPoints"": 5
+}"
+M022,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a data scientist"",
+  ""goal"": ""I want to implement recommendation methods that use ranking-based preferences instead of the semantic differential method"",
+  ""benefit"": ""so that the recommender system can better represent individual preferences and improve recommendation quality"",
+  ""acceptanceCriteria"": [
+    ""The system accepts user preference data in ranking format"",
+    ""The system applies collaborative filtering to generate recommendations based on ranking data"",
+    ""The system outputs a ranked list of recommended items"",
+    ""Comparison experiments between ranking-based methods and SD-based methods are performed and documented""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing collaborative filtering infrastructure"",
+  ""storyPoints"": 5
+}"
+M023,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a prison administrator"",
+  ""goal"": ""to predict the probability of recidivism for inmates using a Decision Tree model"",
+  ""benefit"": ""to support decision-making and allocate resources to reduce future offenses"",
+  ""acceptanceCriteria"": ""The system must provide a probability score for each inmate, flag high‑risk inmates, and allow threshold adjustment for risk classification."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Availability of conviction data and integration with the existing inmate database."",
+  ""storyPoints"": 5
+}"
+M024,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a dating app user"",
+  ""goal"": ""to receive accurate match predictions based on objective ratings from speed dating events"",
+  ""benefit"": ""improved match accuracy and better user experience"",
+  ""acceptanceCriteria"": ""The recommender system must use an objective profile library derived from speed dating ratings, apply SMOTE oversampling to address class imbalance, and employ a random forest regression-based reciprocal recommender, achieving at least 92% match prediction accuracy."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Speed dating dataset, SMOTE oversampling implementation, Random forest regression model"",
+  ""storyPoints"": 5
+}"
+M025,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a bed capacity manager"",
+  ""goal"": ""I want to predict weekly inpatient bed demand using a machine learning model so that I can plan resources for the ED and PACU more effectively"",
+  ""benefit"": ""This will reduce overcrowding, shorten boarding times, improve bed transfer efficiency, and enhance patient safety"",
+  ""acceptanceCriteria"": [
+    ""The model must achieve a mean absolute percentage error (MAPE) between 0.49% and 4.10% on the test period"",
+    ""Weekly bed demand forecasts are generated and accessible to the resource planning team""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Historical inpatient encounter data for the last 5 years"",
+  ""storyPoints"": 5
+}"
+M026,initial,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""develop a deep learning framework to identify potential repurposed drug therapies for Alzheimer’s disease"",
+  ""benefit"": ""enable researchers to discover effective drug combinations that may improve treatment options for AD patients"",
+  ""acceptanceCriteria"": ""The AI-DrugNet model produces a ranked list of drug combinations with predictive performance that meets the predefined accuracy threshold for AD therapeutic candidates."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Availability of drug-target interaction data and disease network information"",
+  ""storyPoints"": 5
+}
+```"
+M027,initial,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""Neonatal nurse"",
+  ""goal"": ""identify unhealthy newborns using a non-invasive cry diagnostic system"",
+  ""benefit"": ""enable early detection and timely intervention for neonatal health issues"",
+  ""acceptanceCriteria"": ""The system must achieve an F-measure of at least 80% when classifying unhealthy newborns from cry audio signals."",
+  ""priority"": ""High"",
+  ""dependencies"": """",
+  ""storyPoints"": ""5""
+}"
+M028,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""benchmark the performance of a deep neural network intrusion detection system across publicly available malware datasets"",
+  ""benefit"": ""identify the most effective algorithm for detecting future cyberattacks"",
+  ""acceptanceCriteria"": [
+    ""Train the DNN on the KDDCup 99 dataset for up to 1,000 epochs with learning rates in the range [0.01-0.5]"",
+    ""Apply the trained DNN to the NSL-KDD, UNSW-NB15, Kyoto, WSN-DS, and CICIDS 2017 datasets"",
+    ""Record and compare performance metrics (accuracy, precision, recall, F1‑score) for each dataset"",
+    ""Determine and document the algorithm and hyperparameter configuration that yields the highest overall detection performance""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to the KDDCup 99, NSL-KDD, UNSW-NB15, Kyoto, WSN-DS, and CICIDS 2017 datasets and a working DNN implementation"",
+  ""storyPoints"": 5
+}"
+M029,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As an average fantasy sports enthusiast"",
+  ""goal"": ""I want to make informed decisions on which players to choose and invest in"",
+  ""benefit"": ""so that I can avoid favoritism bias and increase my return on investment"",
+  ""acceptanceCriteria"": ""The platform displays player visualizations, statistical measures, and analytics that help me select players based on objective data, and provides actionable insights derived from statistical analysis of FPL API data for the 2021-22 EPL season."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Fantasy Premier League API data feed"",
+  ""storyPoints"": 5
+}"
+M030,initial,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""Implement an RNN‑based session‑based recommendation model that incorporates a ranking loss function to improve recommendation accuracy for short user sessions."",
+  ""benefit"": ""Deliver more accurate recommendations for users with limited interaction history, outperforming traditional matrix factorization approaches."",
+  ""acceptanceCriteria"": [
+    ""The RNN model is trained on the provided session datasets."",
+    ""The ranking loss function is integrated and validated."",
+    ""Evaluation metrics (e.g., Recall@10, MRR) show statistically significant improvement over baseline item‑to‑item recommendations."",
+    ""Model training and inference pipelines are documented and reproducible.""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing data ingestion pipeline for session logs and baseline recommendation system."",
+  ""storyPoints"": 8
+}
+```"
+M031,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a data scientist"",
+  ""goal"": ""I want to generate dynamic multi-aspect embeddings for nodes in a graph"",
+  ""benefit"": ""so that I can capture multiple aspects of each node based on its local context and improve downstream task performance"",
+  ""acceptanceCriteria"": [
+    ""The embedding model assigns a single aspect to each node dynamically during training based on its local context."",
+    ""Aspect selection is end-to-end differentiable using the Gumbel-Softmax trick."",
+    ""Aspect regularization captures relatedness and diversity among aspects."",
+    ""The framework supports both homogeneous and heterogeneous networks."",
+    ""Embedding quality is validated against downstream tasks and shows superiority over single-aspect baselines.""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Graph data preprocessing and existing embedding library"",
+  ""storyPoints"": 5
+}"
+M032,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a social science researcher"",
+  ""goal"": ""link individual records across the 1900, 1910, and 1920 US censuses using a supervised machine learning approach trained on wiki-style family tree links"",
+  ""benefit"": ""obtain a high match rate (62-65%) with low false positive rate (6-7%) and representative links, enabling robust estimation of intergenerational literacy transmission"",
+  ""acceptanceCriteria"": [
+    ""The system must produce at least 62% match rate across adjacent censuses"",
+    ""False positive rate must not exceed 7%"",
+    ""Linked records must be statistically representative of the census populations""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to the public wiki-style family tree dataset and a supervised ML training pipeline"",
+  ""storyPoints"": 8
+}"
+M033,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{""role"":""Credit risk analyst"",""goal"":""implement a random forest model to predict credit card default"",""benefit"":""reduce default rates and improve risk management"",""acceptanceCriteria"":""Model achieves at least 82% accuracy and 77% AUC on test data"",""priority"":""High"",""dependencies"":""Credit card customer data pipeline"",""storyPoints"":5}"
+M034,initial,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""develop a methodology to quantify political bias in tweets using a bias subspace approach"",
+  ""benefit"": ""provide insights into political bias patterns and support fairer ML models"",
+  ""acceptanceCriteria"": ""The system can compute a political bias subspace, assign bias scores to tweets from the 26 GB corpus, and demonstrate that presidential candidate tweets show higher bias than other politicians of the same party."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to the 26 GB tweet corpus from Republican and Democratic politicians"",
+  ""storyPoints"": ""8""
+}"
+M035,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a researcher"",
+  ""goal"": ""model a printing-imaging channel using a machine learning-based digital twin for copy detection patterns (CDP)"",
+  ""benefit"": ""to improve anti-counterfeiting detection across various printing and imaging devices"",
+  ""acceptanceCriteria"": ""The digital twin can generate and predict printed CDP from digital templates and imaging data, supporting paired, unpaired, or hybrid training data"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to printing and imaging devices, training data, simulation code"",
+  ""storyPoints"": 8
+}"
+M036,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a researcher"",
+  ""goal"": ""I want to analyze differences among Web search engines' rankings"",
+  ""benefit"": ""so that I can provide transparent access to the Web's information"",
+  ""acceptanceCriteria"": ""The platform can ingest search results from multiple engines, compute content emphasis metrics, and identify orientations such as positive or negative viewpoints and advertisement presence, presenting findings in a clear report."",
+  ""priority"": ""High"",
+  ""dependencies"": """",
+  ""storyPoints"": 5
+}"
+M037,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""infer missing user profile attributes using the social network graph"",
+  ""benefit"": ""improve user matching and content relevance"",
+  ""acceptanceCriteria"": ""The inference model achieves high accuracy when 20% of user attributes are known."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to user profile data and the social graph"",
+  ""storyPoints"": 8
+}"
+M038,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""HR manager"",
+  ""goal"": ""predict employee attrition accurately using a deep data-driven people analytics approach"",
+  ""benefit"": ""reduce attrition, improve productivity and planning continuity"",
+  ""acceptanceCriteria"": [
+    ""Model achieves accuracy of at least 0.96 on large dataset, 0.98 on medium dataset, and 0.99 on small dataset"",
+    ""Key employee features influencing attrition are identified and reported"",
+    ""Business travel is highlighted as a leading motivator for retention""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Availability of employee data, survey responses, feature selection algorithms"",
+  ""storyPoints"": 8
+}"
+M039,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""Improve the predictive performance of the bank customer marketing response model by optimizing the Random Forest ensemble using balanced data and identifying key features"",
+  ""benefit"": ""Higher accuracy in predicting deposit subscription, enabling more effective targeting and increased campaign conversion rates"",
+  ""acceptanceCriteria"": [
+    ""Random Forest model trained on balanced dataset achieves at least 5% higher accuracy than baseline on ten-fold cross-validation"",
+    ""Feature importance analysis identifies duration, poutcome, contact, month, and housing as top contributors"",
+    ""Model training and evaluation performed within Orange 3.2 following CRISP-DM methodology""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Availability of the 45,211-instance bank dataset and Orange 3.2 environment"",
+  ""storyPoints"": 5
+}"
+M040,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a product owner"",
+  ""goal"": ""I want to implement a real-time human emotion recognition module using DeepFace AI to identify emotions from facial images"",
+  ""benefit"": ""so that we can enhance user experience, reduce crime, and target advertising by understanding user emotions accurately"",
+  ""acceptanceCriteria"": [
+    ""The module must detect at least five emotions: frustration, dissatisfaction, happiness, neutrality, and wonder"",
+    ""The detection must be performed in real-time with an average accuracy of 94%"",
+    ""The system must extract facial features using 26 facial points from an active shape DeepFace model""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""DeepFace model"",
+    ""AI infrastructure for real-time processing""
+  ],
+  ""storyPoints"": 5
+}"
+M041,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a driver"",
+  ""goal"": ""I want to experience safer driving through autonomous vehicle technology"",
+  ""benefit"": ""Reduced risk of accidents and increased safety"",
+  ""acceptanceCriteria"": """",
+  ""priority"": ""High"",
+  ""dependencies"": ""AI and IoT integration"",
+  ""storyPoints"": 5
+}"
+M042,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a data scientist"",
+  ""goal"": ""to predict individuals' annual income based on lifestyle data using machine learning"",
+  ""benefit"": ""to help reduce economic inequality by identifying income gaps and informing policy decisions"",
+  ""acceptanceCriteria"": ""The model should provide income predictions for individuals based on lifestyle data with reasonable accuracy."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Availability of labeled lifestyle and income data"",
+  ""storyPoints"": 5
+}"
+M043,initial,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""Public health data analyst"",
+  ""goal"": ""to develop and validate the Firearm Violence Vulnerability Index (FVVI) that predicts shooting incident rates at the census tract level"",
+  ""benefit"": ""to identify high-risk communities, fill data gaps, and guide targeted prevention programs and resource allocation"",
+  ""acceptanceCriteria"": ""The FVVI model must produce predictions for all census tracts in the target cities and achieve a goodness of fit (D^2) of at least 0.75 on the unseen test set"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Open-access shooting incident data (2015-2022) and 2020 American Community Survey census tract characteristics"",
+  ""storyPoints"": 8
+}
+```"
+M044,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a music streaming service user"",
+  ""goal"": ""I want to automatically generate playlists that transition smoothly across both emotional (Arousal‑Valence) and audio feature dimensions"",
+  ""benefit"": ""so that I can enjoy a cohesive listening experience that adapts to my mood and musical preferences"",
+  ""acceptanceCriteria"": [
+    ""The generated playlist must traverse the Arousal‑Valence space with a Pearson correlation coefficient indicating smoothness above a predefined threshold"",
+    ""The playlist must traverse audio feature space with variance of steps between songs below a predefined threshold"",
+    ""The playlist should be created using a two‑stage approach: first selecting candidate songs via a KNN model based on emotion, then refining selection with acoustic similarity metrics""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""KNN model for emotion‑based song selection"",
+    ""Acoustic similarity metric implementation"",
+    ""Testing protocol for evaluating smoothness and evenness""
+  ],
+  ""storyPoints"": 5
+}"
+M045,initial,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""As an NLP engineer"",
+  ""goal"": ""I want to build a multi‑task learning model that jointly learns sentiment analysis, sarcasm detection, and stance detection to improve stance classification on social media text"",
+  ""benefit"": ""so that we can achieve higher stance detection accuracy and better understand the interplay between sentiment, sarcasm, and stance in user‑generated content"",
+  ""acceptanceCriteria"": ""The model must outperform the current baseline on at least one benchmark dataset (English or Arabic) and demonstrate consistent improvements across sentiment, sarcasm, and stance tasks"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to benchmark datasets for stance, sentiment, and sarcasm in English and Arabic; availability of a Transformer‑based training framework"",
+  ""storyPoints"": 13
+}
+```"
+M046,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Transportation Policy Analyst"",
+  ""goal"": ""identify and quantify factors influencing ride-hailing passengers' choice of shared trips and matching likelihood to inform sustainable transportation policies"",
+  ""benefit"": ""provide evidence-based insights to design policies that increase shared ride usage, reducing congestion and emissions"",
+  ""acceptanceCriteria"": [
+    ""Trips to/from airports are less likely to be shared"",
+    ""Trips to/from low-income areas are more likely to be shared"",
+    ""Longer shared trips are more likely to be matched"",
+    ""Shared trips to/from dense areas are more likely to be matched"",
+    ""Shared trips between areas with a high number of shared trips are more likely to be matched"",
+    ""Matching an additional shared trip adds approximately 4 minutes to a trip"",
+    ""Ride-hailing users' value of time is $48.23 per hour""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to Chicago ride-hailing dataset"",
+  ""storyPoints"": 5
+}"
+M047,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Therapist"",
+  ""goal"": ""analyze sentiment and emotion in patient utterances using the improved RoBERTa-based model"",
+  ""benefit"": ""the dialogue system can respond more appropriately to the patient's emotional state, improving therapeutic outcomes"",
+  ""acceptanceCriteria"": ""The system achieves at least a 3% increase in accuracy and an 8% increase in F1 score on sentiment and emotion recognition tasks compared to the previous BERT-based model."",
+  ""priority"": ""High"",
+  ""dependencies"": ""RoBERTa model, CORTEX+pCC corpus"",
+  ""storyPoints"": 5
+}"
+M048,initial,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""As a data scientist"",
+  ""goal"": ""build predictive models for drug abuse using personality traits and demographic data"",
+  ""benefit"": ""to enable early intervention and prevention of drug abuse"",
+  ""acceptanceCriteria"": ""The models (logistic regression, decision tree, random forest) must predict drug abuse probability with acceptable accuracy and identify key factors such as sensation seeking and country of origin"",
+  ""priority"": ""High"",
+  ""dependencies"": ""UCI drug consumption dataset"",
+  ""storyPoints"": ""5""
+}"
+M049,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""predict the probability and timing of student dropout using machine learning and survival analysis techniques"",
+  ""benefit"": ""enable university decision-makers to identify at-risk students and implement targeted retention interventions"",
+  ""acceptanceCriteria"": """",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to a longitudinal dataset of student demographic, socioeconomic, and academic information"",
+  ""storyPoints"": 5
+}"
+M050,initial,openai/gpt-oss-20b,200,stop,true,true,false,true,INVALID_TYPE_storyPoints,"```json
+{
+  ""role"": ""As a dermatologist"",
+  ""goal"": ""detect and classify skin lesions accurately using a deep learning model"",
+  ""benefit"": ""improve early detection of skin cancer and patient outcomes"",
+  ""acceptanceCriteria"": ""The model must achieve at least 86.91% accuracy on the ISIC 2017 HAM10000 test set"",
+  ""priority"": ""High"",
+  ""dependencies"": ""ISIC 2017 HAM10000 dataset"",
+  ""storyPoints"": ""5""
+}
+```"
+M001,retry,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""As an economic historian"",
+  ""goal"": ""I want to accurately and efficiently match historical records and produce an unbiased dataset of links for analysis"",
+  ""benefit"": ""so that I can conduct research into intergenerational mobility, long‑run effects of early life conditions, assimilation, discrimination, and returns to education"",
+  ""acceptanceCriteria"": ""The matching algorithm must use a training set to tune classification and text comparison, minimize false positives and false negatives, and produce a linked dataset that can be replicated across different census sources"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to historical census data and a sufficient training dataset"",
+  ""storyPoints"": 8
+}
+```"
+M002,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""policy analyst"",
+  ""goal"": ""evaluate the impact of interest rate changes on loan demand and loan size in microfinance institutions"",
+  ""benefit"": ""to inform policymakers whether eliminating subsidies by raising rates is viable without reducing poor's access to credit"",
+  ""acceptanceCriteria"": [
+    ""Loan demand curves are downward sloping with respect to interest rates"",
+    ""Demand elasticity is steeper for price increases compared to standard rates"",
+    ""Loan size is more responsive to changes in loan maturity than to changes in interest rates""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Randomized trial data from a consumer lender in South Africa"",
+  ""storyPoints"": 5
+}"
+M003,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""content moderator"",
+  ""goal"": ""detect whether a conversation thread will incite a toxic comment before it happens"",
+  ""benefit"": ""enable preemptive moderation to reduce exposure to toxic content"",
+  ""acceptanceCriteria"": ""The system must provide a prediction for each conversation thread indicating the likelihood of future toxic comments, and the prediction must be available before any toxic comment is posted."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing dataset of Wikipedia contributor conversations and labeled toxic comments"",
+  ""storyPoints"": 5
+}"
+M004,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a healthcare provider"",
+  ""goal"": ""detect anomalies in wearable sensor data using unsupervised clustering"",
+  ""benefit"": ""improve early detection of health issues and increase efficiency of health services"",
+  ""acceptanceCriteria"": ""The system should identify anomalies in sensor data using K-means or K-medoids clustering and flag them for review"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Integration with wearable sensor data streams"",
+  ""storyPoints"": 5
+}"
+M005,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a researcher studying political news across multiple languages"",
+  ""goal"": ""I want to automatically classify news articles into political and other categories using URL section cues"",
+  ""benefit"": ""so that I can efficiently analyze large volumes of news without costly manual labeling"",
+  ""acceptanceCriteria"": [
+    ""The classifier can identify political news articles with accuracy comparable to manually coded labels"",
+    ""The system can also classify articles into sports, entertainment, and economic categories"",
+    ""The classification process is scalable to large datasets and works across multiple languages""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing dataset of approximately 870,000 news URLs with hand‑labelled articles from Italy, Germany, Netherlands, and Poland"",
+  ""storyPoints"": 5
+}"
+M006,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Client"",
+  ""goal"": ""evaluate freelancers using a multidimensional assessment framework that considers current information and past job performance"",
+  ""benefit"": ""improved hiring decisions leading to higher quality work and reduced risk of hiring unsuitable freelancers"",
+  ""acceptanceCriteria"": [
+    ""The assessment framework must generate a composite score for each freelancer based on multiple dimensions"",
+    ""The framework must incorporate both current freelancer data and historical job performance"",
+    ""The resulting scores must be presented in a clear, actionable format for the client"",
+    ""The framework’s performance should be demonstrably better than the baseline rating system""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to freelancer profiles and historical job data from the marketplace"",
+  ""storyPoints"": 5
+}"
+M007,retry,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""Security Analyst"",
+  ""goal"": ""Detect compromised user accounts by monitoring login behavior for anomalies"",
+  ""benefit"": ""Early identification of account compromise reduces risk of data theft and protects user trust"",
+  ""acceptanceCriteria"": [
+    ""The anomaly model must analyze login events in real time"",
+    ""An alert is generated when a login deviates from the user’s historical pattern"",
+    ""The model achieves at least 90% sensitivity and 95% specificity on validation data"",
+    ""Overall accuracy of the detection system is above 92%""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""Historical login data ingestion pipeline"",
+    ""Anomaly detection model training framework""
+  ],
+  ""storyPoints"": 8
+}
+```"
+M008,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Recruiter"",
+  ""goal"": ""automatically shortlist candidates based on personality quiz results and CV analysis"",
+  ""benefit"": ""reduces manual screening effort and ensures fair, data-driven hiring decisions"",
+  ""acceptanceCriteria"": [
+    ""Admin can upload CV datasets for training"",
+    ""Candidates can register and complete an online MCQ personality test"",
+    ""System applies logistic regression to evaluate eligibility"",
+    ""Shortlisted candidates are displayed to the recruiter"",
+    ""Results are emailed to both candidates and admin""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing user registration and email service"",
+  ""storyPoints"": 8
+}"
+M009,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Sales Planner"",
+  ""goal"": ""to generate accurate weekly sales predictions for outgoing invoices using an ARIMA model"",
+  ""benefit"": ""enables optimized sales and logistics planning, reducing costs and maximizing revenue"",
+  ""acceptanceCriteria"": [
+    ""Data mart built on top of the data warehouse and receives daily loads of outgoing invoices and uninvoiced shipments"",
+    ""Data is aggregated on a weekly level and includes product, sales market, customer, quantity, and date"",
+    ""ARIMA model is applied to the aggregated data to produce weekly sales forecasts for outgoing invoices"",
+    ""Forecasts are available for use in sales and logistics planning and are validated against actual invoice data"",
+    ""Data preparation steps are documented and reproducible""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""Operational data warehouse"",
+    ""Daily data load pipeline for invoices and shipments""
+  ],
+  ""storyPoints"": 5
+}"
+M010,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a university administrator"",
+  ""goal"": ""I want to select the most accurate and stable face recognition algorithm for the attendance system"",
+  ""benefit"": ""so that attendance can be recorded accurately and cheating can be prevented"",
+  ""acceptanceCriteria"": ""The selected algorithm must demonstrate higher accuracy than the current RFID system and maintain stability under varying lighting conditions"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing camera infrastructure"",
+  ""storyPoints"": 5
+}"
+M011,retry,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""As a driver"",
+  ""goal"": ""I want the ADAS to adapt its forward collision avoidance behavior based on my driving intention and behavior"",
+  ""benefit"": ""I can experience safer and more personalized driving assistance that is better accepted by me"",
+  ""acceptanceCriteria"": ""The system must use a Gaussian Mixture Model to recognize driver intention and behavior from real-time driving data and adjust FCA control parameters accordingly"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Driver behavior data collection module, real-time driving simulator"",
+  ""storyPoints"": ""5""
+}"
+M012,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a customs officer"",
+  ""goal"": ""I want to automatically assess HS codes for goods based on product descriptions and HS code taxonomy"",
+  ""benefit"": ""so that I can reduce misclassification, avoid penalties, and speed up clearance processes"",
+  ""acceptanceCriteria"": """",
+  ""priority"": ""High"",
+  ""dependencies"": """",
+  ""storyPoints"": 5
+}"
+M013,retry,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""Virginia public health official"",
+  ""goal"": ""recommend mobile vaccination site placement in real-time to target under‑vaccinated populations"",
+  ""benefit"": ""increase vaccine uptake among hesitant groups and reduce the risk of new variants"",
+  ""acceptanceCriteria"": ""The model recommends sites that are most likely to be visited by unvaccinated individuals and maximize uptake among hesitant groups."",
+  ""priority"": ""High"",
+  ""dependencies"": """",
+  ""storyPoints"": """"
+}"
+M014,retry,openai/gpt-oss-20b,429,,false,false,false,false,API_ERROR_429,
+M014,retry,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""As a music curator"",
+  ""goal"": ""to predict the success of playlists using a machine learning-based approach"",
+  ""benefit"": ""to enhance playlist creation and improve the music listening experience for users"",
+  ""acceptanceCriteria"": ""The model predicts playlist success with at least 89.6% overall accuracy, 92.0% accuracy for popular playlists, and 89.4% accuracy for unpopular playlists."",
+  ""priority"": """",
+  ""dependencies"": """",
+  ""storyPoints"": """"
+}"
+M015,retry,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""Machine Learning Engineer"",
+  ""goal"": ""detect aggressive behavior in real-time on Twitter using a streaming ML framework that adapts incrementally to new data"",
+  ""benefit"": ""improves user safety by quickly identifying and mitigating aggressive content, while maintaining high accuracy and scalability across the entire Twitter Firehose"",
+  ""acceptanceCriteria"": [
+    ""The system must achieve at least 90% accuracy, precision, and recall on real-time Twitter data."",
+    ""The framework should scale to process the full Twitter Firehose (≈778 million tweets/day) using only 3 commodity machines."",
+    ""The model must adapt incrementally to new annotated examples without requiring a full retrain.""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to the Twitter Firehose API and a streaming data pipeline."",
+  ""storyPoints"": 8
+}
+```"
+M016,retry,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""Transportation Planner"",
+  ""goal"": ""Predict hourly taxi and Uber ridership per zip-code area using an XGBoost model"",
+  ""benefit"": ""Enable optimal taxi dispatch and city planning decisions by accurately estimating demand"",
+  ""acceptanceCriteria"": """",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to NYC taxi and Uber trip dataset (April-September 2014)"",
+  ""storyPoints"": ""8""
+}"
+M017,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a researcher in animal behavior"",
+  ""goal"": ""I want to interpret social interactions in animals accurately using contextual data and predictive models"",
+  ""benefit"": ""so that I can better understand animal behavior, support conservation efforts, and improve AI behavior prediction models"",
+  ""acceptanceCriteria"": [
+    ""The system incorporates contextual factors into the interpretation of social interactions"",
+    ""The predictive models improve accuracy compared to baseline methods"",
+    ""The interpretation is applicable across multiple species""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""Access to contextual data"",
+    ""Machine learning framework""
+  ],
+  ""storyPoints"": 5
+}"
+M018,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a forensic linguist"",
+  ""goal"": ""identify the authors behind QAnon posts"",
+  ""benefit"": ""to prevent violent actions by targeting the individuals"",
+  ""acceptanceCriteria"": ""The system can match Q's posts to suspect profiles with a confidence score above a threshold."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Collection of suspect writings and QAnon posts"",
+  ""storyPoints"": 5
+}"
+M019,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""classify types of moving vehicles in a distributed wireless sensor network"",
+  ""benefit"": ""enable accurate real‑time vehicle type detection for traffic monitoring"",
+  ""acceptanceCriteria"": ""Dataset of 820 MB raw time series and 70 MB preprocessed spectral feature vectors is available; spectral feature vectors are extracted; baseline maximum likelihood classifier is implemented and achieves the reported baseline accuracy"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Data collection procedure completed"",
+  ""storyPoints"": 5
+}"
+M020,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""child welfare caseworker"",
+  ""goal"": ""use a clinical decision support system to predict the most appropriate placement type for each youth based on their behavioral health needs and characteristics"",
+  ""benefit"": ""improve placement outcomes by selecting the setting with the highest likelihood of treatment success, thereby enhancing the well‑being of children in care"",
+  ""acceptanceCriteria"": [
+    ""The system provides a placement recommendation for each youth."",
+    ""The recommendation is based on a machine learning model trained on existing data."",
+    ""The model achieves an AUROC greater than 0.70 for distinguishing successful placements."",
+    ""The recommendation is presented within the standard care workflow.""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to historical placement and behavioral health data for each youth."",
+  ""storyPoints"": 5
+}"
+M021,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Conference Organizer"",
+  ""goal"": ""Automatically match reviewers to conference submissions using a common topic model"",
+  ""benefit"": ""Reduce the time spent on reviewer selection and improve the quality of the review process"",
+  ""acceptanceCriteria"": [
+    ""The system must generate reviewer-submission matches based on the common topic model."",
+    ""Matches should demonstrate higher relevance compared to previous bag-of-words or probabilistic topic models."",
+    ""The matching process should complete within a reasonable time frame for the organizer.""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": """",
+  ""storyPoints"": 5
+}"
+M022,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a data scientist"",
+  ""goal"": ""I want to implement recommendation methods that use ranking-based preferences instead of the semantic differential method"",
+  ""benefit"": ""so that the recommender system can better represent individual preferences and improve recommendation quality"",
+  ""acceptanceCriteria"": [
+    ""The system accepts user preference data in ranking format"",
+    ""The system applies collaborative filtering to generate recommendations based on ranking data"",
+    ""The system outputs a ranked list of recommended items"",
+    ""Comparison experiments between ranking-based methods and SD-based methods are performed and documented""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing collaborative filtering infrastructure"",
+  ""storyPoints"": 5
+}"
+M023,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a prison administrator"",
+  ""goal"": ""to predict the probability of recidivism for inmates using a Decision Tree model"",
+  ""benefit"": ""to support decision-making and allocate resources to reduce future offenses"",
+  ""acceptanceCriteria"": ""The system must provide a probability score for each inmate, flag high‑risk inmates, and allow threshold adjustment for risk classification."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Availability of conviction data and integration with the existing inmate database."",
+  ""storyPoints"": 5
+}"
+M024,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a dating app user"",
+  ""goal"": ""to receive accurate match predictions based on objective ratings from speed dating events"",
+  ""benefit"": ""improved match accuracy and better user experience"",
+  ""acceptanceCriteria"": ""The recommender system must use an objective profile library derived from speed dating ratings, apply SMOTE oversampling to address class imbalance, and employ a random forest regression-based reciprocal recommender, achieving at least 92% match prediction accuracy."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Speed dating dataset, SMOTE oversampling implementation, Random forest regression model"",
+  ""storyPoints"": 5
+}"
+M025,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a bed capacity manager"",
+  ""goal"": ""I want to predict weekly inpatient bed demand using a machine learning model so that I can plan resources for the ED and PACU more effectively"",
+  ""benefit"": ""This will reduce overcrowding, shorten boarding times, improve bed transfer efficiency, and enhance patient safety"",
+  ""acceptanceCriteria"": [
+    ""The model must achieve a mean absolute percentage error (MAPE) between 0.49% and 4.10% on the test period"",
+    ""Weekly bed demand forecasts are generated and accessible to the resource planning team""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Historical inpatient encounter data for the last 5 years"",
+  ""storyPoints"": 5
+}"
+M026,retry,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""develop a deep learning framework to identify potential repurposed drug therapies for Alzheimer’s disease"",
+  ""benefit"": ""enable researchers to discover effective drug combinations that may improve treatment options for AD patients"",
+  ""acceptanceCriteria"": ""The AI-DrugNet model produces a ranked list of drug combinations with predictive performance that meets the predefined accuracy threshold for AD therapeutic candidates."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Availability of drug-target interaction data and disease network information"",
+  ""storyPoints"": 5
+}
+```"
+M027,retry,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""Neonatal nurse"",
+  ""goal"": ""identify unhealthy newborns using a non-invasive cry diagnostic system"",
+  ""benefit"": ""enable early detection and timely intervention for neonatal health issues"",
+  ""acceptanceCriteria"": ""The system must achieve an F-measure of at least 80% when classifying unhealthy newborns from cry audio signals."",
+  ""priority"": ""High"",
+  ""dependencies"": """",
+  ""storyPoints"": ""5""
+}"
+M028,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""benchmark the performance of a deep neural network intrusion detection system across publicly available malware datasets"",
+  ""benefit"": ""identify the most effective algorithm for detecting future cyberattacks"",
+  ""acceptanceCriteria"": [
+    ""Train the DNN on the KDDCup 99 dataset for up to 1,000 epochs with learning rates in the range [0.01-0.5]"",
+    ""Apply the trained DNN to the NSL-KDD, UNSW-NB15, Kyoto, WSN-DS, and CICIDS 2017 datasets"",
+    ""Record and compare performance metrics (accuracy, precision, recall, F1‑score) for each dataset"",
+    ""Determine and document the algorithm and hyperparameter configuration that yields the highest overall detection performance""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to the KDDCup 99, NSL-KDD, UNSW-NB15, Kyoto, WSN-DS, and CICIDS 2017 datasets and a working DNN implementation"",
+  ""storyPoints"": 5
+}"
+M029,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As an average fantasy sports enthusiast"",
+  ""goal"": ""I want to make informed decisions on which players to choose and invest in"",
+  ""benefit"": ""so that I can avoid favoritism bias and increase my return on investment"",
+  ""acceptanceCriteria"": ""The platform displays player visualizations, statistical measures, and analytics that help me select players based on objective data, and provides actionable insights derived from statistical analysis of FPL API data for the 2021-22 EPL season."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Fantasy Premier League API data feed"",
+  ""storyPoints"": 5
+}"
+M030,retry,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""Implement an RNN‑based session‑based recommendation model that incorporates a ranking loss function to improve recommendation accuracy for short user sessions."",
+  ""benefit"": ""Deliver more accurate recommendations for users with limited interaction history, outperforming traditional matrix factorization approaches."",
+  ""acceptanceCriteria"": [
+    ""The RNN model is trained on the provided session datasets."",
+    ""The ranking loss function is integrated and validated."",
+    ""Evaluation metrics (e.g., Recall@10, MRR) show statistically significant improvement over baseline item‑to‑item recommendations."",
+    ""Model training and inference pipelines are documented and reproducible.""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing data ingestion pipeline for session logs and baseline recommendation system."",
+  ""storyPoints"": 8
+}
+```"
+M031,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a data scientist"",
+  ""goal"": ""I want to generate dynamic multi-aspect embeddings for nodes in a graph"",
+  ""benefit"": ""so that I can capture multiple aspects of each node based on its local context and improve downstream task performance"",
+  ""acceptanceCriteria"": [
+    ""The embedding model assigns a single aspect to each node dynamically during training based on its local context."",
+    ""Aspect selection is end-to-end differentiable using the Gumbel-Softmax trick."",
+    ""Aspect regularization captures relatedness and diversity among aspects."",
+    ""The framework supports both homogeneous and heterogeneous networks."",
+    ""Embedding quality is validated against downstream tasks and shows superiority over single-aspect baselines.""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Graph data preprocessing and existing embedding library"",
+  ""storyPoints"": 5
+}"
+M032,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a social science researcher"",
+  ""goal"": ""link individual records across the 1900, 1910, and 1920 US censuses using a supervised machine learning approach trained on wiki-style family tree links"",
+  ""benefit"": ""obtain a high match rate (62-65%) with low false positive rate (6-7%) and representative links, enabling robust estimation of intergenerational literacy transmission"",
+  ""acceptanceCriteria"": [
+    ""The system must produce at least 62% match rate across adjacent censuses"",
+    ""False positive rate must not exceed 7%"",
+    ""Linked records must be statistically representative of the census populations""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to the public wiki-style family tree dataset and a supervised ML training pipeline"",
+  ""storyPoints"": 8
+}"
+M033,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{""role"":""Credit risk analyst"",""goal"":""implement a random forest model to predict credit card default"",""benefit"":""reduce default rates and improve risk management"",""acceptanceCriteria"":""Model achieves at least 82% accuracy and 77% AUC on test data"",""priority"":""High"",""dependencies"":""Credit card customer data pipeline"",""storyPoints"":5}"
+M034,retry,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""develop a methodology to quantify political bias in tweets using a bias subspace approach"",
+  ""benefit"": ""provide insights into political bias patterns and support fairer ML models"",
+  ""acceptanceCriteria"": ""The system can compute a political bias subspace, assign bias scores to tweets from the 26 GB corpus, and demonstrate that presidential candidate tweets show higher bias than other politicians of the same party."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to the 26 GB tweet corpus from Republican and Democratic politicians"",
+  ""storyPoints"": ""8""
+}"
+M035,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a researcher"",
+  ""goal"": ""model a printing-imaging channel using a machine learning-based digital twin for copy detection patterns (CDP)"",
+  ""benefit"": ""to improve anti-counterfeiting detection across various printing and imaging devices"",
+  ""acceptanceCriteria"": ""The digital twin can generate and predict printed CDP from digital templates and imaging data, supporting paired, unpaired, or hybrid training data"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to printing and imaging devices, training data, simulation code"",
+  ""storyPoints"": 8
+}"
+M036,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a researcher"",
+  ""goal"": ""I want to analyze differences among Web search engines' rankings"",
+  ""benefit"": ""so that I can provide transparent access to the Web's information"",
+  ""acceptanceCriteria"": ""The platform can ingest search results from multiple engines, compute content emphasis metrics, and identify orientations such as positive or negative viewpoints and advertisement presence, presenting findings in a clear report."",
+  ""priority"": ""High"",
+  ""dependencies"": """",
+  ""storyPoints"": 5
+}"
+M037,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""infer missing user profile attributes using the social network graph"",
+  ""benefit"": ""improve user matching and content relevance"",
+  ""acceptanceCriteria"": ""The inference model achieves high accuracy when 20% of user attributes are known."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to user profile data and the social graph"",
+  ""storyPoints"": 8
+}"
+M038,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""HR manager"",
+  ""goal"": ""predict employee attrition accurately using a deep data-driven people analytics approach"",
+  ""benefit"": ""reduce attrition, improve productivity and planning continuity"",
+  ""acceptanceCriteria"": [
+    ""Model achieves accuracy of at least 0.96 on large dataset, 0.98 on medium dataset, and 0.99 on small dataset"",
+    ""Key employee features influencing attrition are identified and reported"",
+    ""Business travel is highlighted as a leading motivator for retention""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Availability of employee data, survey responses, feature selection algorithms"",
+  ""storyPoints"": 8
+}"
+M039,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""Improve the predictive performance of the bank customer marketing response model by optimizing the Random Forest ensemble using balanced data and identifying key features"",
+  ""benefit"": ""Higher accuracy in predicting deposit subscription, enabling more effective targeting and increased campaign conversion rates"",
+  ""acceptanceCriteria"": [
+    ""Random Forest model trained on balanced dataset achieves at least 5% higher accuracy than baseline on ten-fold cross-validation"",
+    ""Feature importance analysis identifies duration, poutcome, contact, month, and housing as top contributors"",
+    ""Model training and evaluation performed within Orange 3.2 following CRISP-DM methodology""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Availability of the 45,211-instance bank dataset and Orange 3.2 environment"",
+  ""storyPoints"": 5
+}"
+M040,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a product owner"",
+  ""goal"": ""I want to implement a real-time human emotion recognition module using DeepFace AI to identify emotions from facial images"",
+  ""benefit"": ""so that we can enhance user experience, reduce crime, and target advertising by understanding user emotions accurately"",
+  ""acceptanceCriteria"": [
+    ""The module must detect at least five emotions: frustration, dissatisfaction, happiness, neutrality, and wonder"",
+    ""The detection must be performed in real-time with an average accuracy of 94%"",
+    ""The system must extract facial features using 26 facial points from an active shape DeepFace model""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""DeepFace model"",
+    ""AI infrastructure for real-time processing""
+  ],
+  ""storyPoints"": 5
+}"
+M041,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a driver"",
+  ""goal"": ""I want to experience safer driving through autonomous vehicle technology"",
+  ""benefit"": ""Reduced risk of accidents and increased safety"",
+  ""acceptanceCriteria"": """",
+  ""priority"": ""High"",
+  ""dependencies"": ""AI and IoT integration"",
+  ""storyPoints"": 5
+}"
+M042,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a data scientist"",
+  ""goal"": ""to predict individuals' annual income based on lifestyle data using machine learning"",
+  ""benefit"": ""to help reduce economic inequality by identifying income gaps and informing policy decisions"",
+  ""acceptanceCriteria"": ""The model should provide income predictions for individuals based on lifestyle data with reasonable accuracy."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Availability of labeled lifestyle and income data"",
+  ""storyPoints"": 5
+}"
+M043,retry,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""Public health data analyst"",
+  ""goal"": ""to develop and validate the Firearm Violence Vulnerability Index (FVVI) that predicts shooting incident rates at the census tract level"",
+  ""benefit"": ""to identify high-risk communities, fill data gaps, and guide targeted prevention programs and resource allocation"",
+  ""acceptanceCriteria"": ""The FVVI model must produce predictions for all census tracts in the target cities and achieve a goodness of fit (D^2) of at least 0.75 on the unseen test set"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Open-access shooting incident data (2015-2022) and 2020 American Community Survey census tract characteristics"",
+  ""storyPoints"": 8
+}
+```"
+M044,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a music streaming service user"",
+  ""goal"": ""I want to automatically generate playlists that transition smoothly across both emotional (Arousal‑Valence) and audio feature dimensions"",
+  ""benefit"": ""so that I can enjoy a cohesive listening experience that adapts to my mood and musical preferences"",
+  ""acceptanceCriteria"": [
+    ""The generated playlist must traverse the Arousal‑Valence space with a Pearson correlation coefficient indicating smoothness above a predefined threshold"",
+    ""The playlist must traverse audio feature space with variance of steps between songs below a predefined threshold"",
+    ""The playlist should be created using a two‑stage approach: first selecting candidate songs via a KNN model based on emotion, then refining selection with acoustic similarity metrics""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""KNN model for emotion‑based song selection"",
+    ""Acoustic similarity metric implementation"",
+    ""Testing protocol for evaluating smoothness and evenness""
+  ],
+  ""storyPoints"": 5
+}"
+M045,retry,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""As an NLP engineer"",
+  ""goal"": ""I want to build a multi‑task learning model that jointly learns sentiment analysis, sarcasm detection, and stance detection to improve stance classification on social media text"",
+  ""benefit"": ""so that we can achieve higher stance detection accuracy and better understand the interplay between sentiment, sarcasm, and stance in user‑generated content"",
+  ""acceptanceCriteria"": ""The model must outperform the current baseline on at least one benchmark dataset (English or Arabic) and demonstrate consistent improvements across sentiment, sarcasm, and stance tasks"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to benchmark datasets for stance, sentiment, and sarcasm in English and Arabic; availability of a Transformer‑based training framework"",
+  ""storyPoints"": 13
+}
+```"
+M046,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Transportation Policy Analyst"",
+  ""goal"": ""identify and quantify factors influencing ride-hailing passengers' choice of shared trips and matching likelihood to inform sustainable transportation policies"",
+  ""benefit"": ""provide evidence-based insights to design policies that increase shared ride usage, reducing congestion and emissions"",
+  ""acceptanceCriteria"": [
+    ""Trips to/from airports are less likely to be shared"",
+    ""Trips to/from low-income areas are more likely to be shared"",
+    ""Longer shared trips are more likely to be matched"",
+    ""Shared trips to/from dense areas are more likely to be matched"",
+    ""Shared trips between areas with a high number of shared trips are more likely to be matched"",
+    ""Matching an additional shared trip adds approximately 4 minutes to a trip"",
+    ""Ride-hailing users' value of time is $48.23 per hour""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to Chicago ride-hailing dataset"",
+  ""storyPoints"": 5
+}"
+M047,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Therapist"",
+  ""goal"": ""analyze sentiment and emotion in patient utterances using the improved RoBERTa-based model"",
+  ""benefit"": ""the dialogue system can respond more appropriately to the patient's emotional state, improving therapeutic outcomes"",
+  ""acceptanceCriteria"": ""The system achieves at least a 3% increase in accuracy and an 8% increase in F1 score on sentiment and emotion recognition tasks compared to the previous BERT-based model."",
+  ""priority"": ""High"",
+  ""dependencies"": ""RoBERTa model, CORTEX+pCC corpus"",
+  ""storyPoints"": 5
+}"
+M048,retry,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""As a data scientist"",
+  ""goal"": ""build predictive models for drug abuse using personality traits and demographic data"",
+  ""benefit"": ""to enable early intervention and prevention of drug abuse"",
+  ""acceptanceCriteria"": ""The models (logistic regression, decision tree, random forest) must predict drug abuse probability with acceptable accuracy and identify key factors such as sensation seeking and country of origin"",
+  ""priority"": ""High"",
+  ""dependencies"": ""UCI drug consumption dataset"",
+  ""storyPoints"": ""5""
+}"
+M049,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""predict the probability and timing of student dropout using machine learning and survival analysis techniques"",
+  ""benefit"": ""enable university decision-makers to identify at-risk students and implement targeted retention interventions"",
+  ""acceptanceCriteria"": """",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to a longitudinal dataset of student demographic, socioeconomic, and academic information"",
+  ""storyPoints"": 5
+}"
+M050,retry,openai/gpt-oss-20b,200,stop,true,true,false,true,INVALID_TYPE_storyPoints,"```json
+{
+  ""role"": ""As a dermatologist"",
+  ""goal"": ""detect and classify skin lesions accurately using a deep learning model"",
+  ""benefit"": ""improve early detection of skin cancer and patient outcomes"",
+  ""acceptanceCriteria"": ""The model must achieve at least 86.91% accuracy on the ISIC 2017 HAM10000 test set"",
+  ""priority"": ""High"",
+  ""dependencies"": ""ISIC 2017 HAM10000 dataset"",
+  ""storyPoints"": ""5""
+}
+```"

@@ -1,0 +1,24 @@
+
+==========================
+FILE: complete UStAI dataset.csv
+HEADER:
+ID,User story,LLM,title,Full actor,tokens
+Physical data lines: 3506
+
+==========================
+FILE: UStAI-annotated_updated.csv
+HEADER:
+ID,Abstract,US_num,LLM,role_shorten,User story,Implied ethical needs,Non-Functional Requirements,atomic,minimal,Conceptually sound,Problem-oriented,Unambiguous,Conflict-free,"Conflict-free, us",Estimatable,Independent,Unique,"Unique, us",Meas-ends relation,"Meas-ends relation, us"
+Physical data lines: 1328
+
+==========================
+FILE: UStAI-annotated.csv
+HEADER:
+,Id,LLM,role_shorten,User story,Implied ethical needs,Non-Functional Requirements,atomic,minimal,Conceptually sound,Problem-oriented,Unambiguous,Conflict-free,"Conflict-free, us",Estimatable,Independent,Unique,"Unique, us",Meas-ends relation,"Meas-ends relation, us"
+Physical data lines: 1326
+
+==========================
+FILE: summery.csv
+HEADER:
+ID,domain,title,abstract,Related (or similar) to the dataset,Venue,Doi,annotated
+Physical data lines: 101

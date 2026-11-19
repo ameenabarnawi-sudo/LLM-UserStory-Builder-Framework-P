@@ -1,0 +1,6 @@
+target/
+*.class
+*.lnk
+compile.log
+classpath.txt
+.env

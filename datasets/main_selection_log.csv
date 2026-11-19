@@ -1,0 +1,102 @@
+source_id,domain,title,status,reason,input_id
+A1,Autonomous Vehicles,Artificial Intelligence and Internet of Things for Autonomous Vehicles,SELECTED,STRATIFIED_SAMPLE,M041
+A2,Health,Machine Learning-Based Aggression Detection in Children with ADHD Using Sensor-Based Physical Activity Monitoring,NOT_SELECTED,SAMPLE_LIMIT,
+A3,NLP,A Streaming Machine Learning Framework for Online Aggression Detection on Twitter,SELECTED,STRATIFIED_SAMPLE,M015
+A4,Autonomous Vehicles,APPLICATION OF DRONES WITH ARTIFICIAL INTELLIGENCE FOR MILITARY PURPOSES,NOT_SELECTED,SAMPLE_LIMIT,
+A5,Autonomous Vehicles,"Case studies on the usability, acceptability and functionality of autonomous mobile delivery robots in real-world healthcare settings",NOT_SELECTED,SAMPLE_LIMIT,
+A6,Autonomous Vehicles,Forward Collision Avoidance Systems Considering Driver's Driving Behavior Recognized by Gaussian Mixture Model,SELECTED,STRATIFIED_SAMPLE,M011
+A7,Health,Behavioral Modeling for Mental Health using Machine Learning Algorithms,NOT_SELECTED,SAMPLE_LIMIT,
+A8,Security,Machine Learning Techniques for Anomaly Detection in Smart Healthcare,SELECTED,STRATIFIED_SAMPLE,M004
+A9,Health,Coronary Heart Disease Diagnosis Through Self-Organizing Map and Fuzzy Support Vector Machine with Incremental Updates,NOT_SELECTED,SAMPLE_LIMIT,
+A10,Health,A Machine Learning Approach to Predicting Blood Glucose Levels for Diabetes Management,NOT_SELECTED,SAMPLE_LIMIT,
+A11,Security,A Machine Learning-Based Digital Twin for Anti-Counterfeiting Applications With Copy Detection Patterns,SELECTED,STRATIFIED_SAMPLE,M035
+A12,Urban studies,A Novel Machine-Learning Tool to Identify Community Risk for Firearm Violence: The Firearm Violence Vulnerability Index,SELECTED,STRATIFIED_SAMPLE,M043
+A13,Biochemistry,AI-DrugNet: A Network-Based Deep Learning Model for Drug Repurposing and Combination Therapy in Neurological Disorders,SELECTED,STRATIFIED_SAMPLE,M026
+A14,Transportation,Analysis and Prediction of New York City Taxi and Uber Demands,SELECTED,STRATIFIED_SAMPLE,M016
+A15,Economics,Analysis of Income on the Basis of Occupation using Data Mining,SELECTED,STRATIFIED_SAMPLE,M042
+A16,Pattren recognition,Automated Newborn Cry Diagnostic System Using Machine Learning Approach,SELECTED,STRATIFIED_SAMPLE,M027
+A17,Health,"Automated Prediction of Apnea and Hypopnea, Using a LAMSTAR Artificial Neural Network",NOT_SELECTED,SAMPLE_LIMIT,
+A18,Health,Classification of Chest Diseases from X-ray Images on the CheXpert Dataset,NOT_SELECTED,SAMPLE_LIMIT,
+A19,Finance,Credit Card Default Prediction using Machine Learning Techniques,SELECTED,STRATIFIED_SAMPLE,M033
+A20,Social work,The Application of Machine Learning Methods in Drug Consumption Prediction,SELECTED,STRATIFIED_SAMPLE,M048
+A21,Information systems,Bias in Online Freelance Marketplaces: Evidence from TaskRabbit and Fiverr,NOT_SELECTED,SAMPLE_LIMIT,
+A22,Information systems,CrowdAdvisor: A Framework for Freelancer Assessment in Online Marketplace,SELECTED,STRATIFIED_SAMPLE,M006
+A23,Information systems,Analyzing the Content Emphasis of Web Search Engines,SELECTED,STRATIFIED_SAMPLE,M036
+A24,Library and information sciences,ArnetMiner: Extraction and Mining of Academic Social Networks,NOT_SELECTED,SAMPLE_LIMIT,
+A25,Information systems,Amazon.com Recommendations: Item-to-Item Collaborative Filtering,NOT_SELECTED,SAMPLE_LIMIT,
+A26,Information systems,Justifying Recommendations Using Distantly-Labeled Reviews and Fine-Grained Aspects,NOT_SELECTED,SAMPLE_LIMIT,
+A27,Movies,Session-based Recommendations with Recurrent Neural Networks,SELECTED,STRATIFIED_SAMPLE,M030
+A28,Sociology,Romantic Partner Recommender Based on Speed Dating Experiment,SELECTED,STRATIFIED_SAMPLE,M024
+A29,Demography,A Machine Learning Approach to Census Record Linking,SELECTED,STRATIFIED_SAMPLE,M001
+A30,Law,Prediction Machine Learning Models on Propensity Convicts to Criminal Recidivism,SELECTED,STRATIFIED_SAMPLE,M023
+A31,Marketing,Internet Advertisements Prediction,NOT_SELECTED,SAMPLE_LIMIT,
+A32,NLP,Enhancing Stance Detection through Sequential Weighted Multi-Task Learning,SELECTED,STRATIFIED_SAMPLE,M045
+A33,Information systems,Searching News Articles Using an Event Knowledge Graph Leveraged by Wikidata,NOT_SELECTED,SAMPLE_LIMIT,
+A34,Computer networks,Deep Learning Approach for Intelligent Intrusion Detection System,SELECTED,STRATIFIED_SAMPLE,M028
+A35,Marketing,Time Series Model for Sales Predictions in the Wholesale Industry,SELECTED,STRATIFIED_SAMPLE,M009
+A36,Signal processing,Vehicle classification in distributed sensor networks,SELECTED,STRATIFIED_SAMPLE,M019
+A37,Sports,Player Recommendation System for Fantasy Premier League using Machine Learning,SELECTED,STRATIFIED_SAMPLE,M029
+A38,Management information systems,Personality Prediction Through CV Analysis using Machine Learning Algorithms for Automated E-Recruitment Process,SELECTED,STRATIFIED_SAMPLE,M008
+A39,Music,On Using Artificial Intelligence to Predict Music Playlist Success,SELECTED,STRATIFIED_SAMPLE,M014
+A40,Social networks,Detecting Compromised Accounts on the Pokec Online Social Network,SELECTED,STRATIFIED_SAMPLE,M007
+A41,Food,Nantonac Collaborative Filtering: Recommendation based on Order Responses,SELECTED,STRATIFIED_SAMPLE,M022
+A42,Urban studies,Data-Driven Real-Time Strategic Placement of Mobile Vaccine Distribution Sites,SELECTED,STRATIFIED_SAMPLE,M013
+A43,Social media,A Benchmark for Toxic Comment Classification on Civil Comments Dataset,NOT_SELECTED,SAMPLE_LIMIT,
+A44,Social media,Automated Hate Speech Detection and the Problem of Offensive Language,NOT_SELECTED,SAMPLE_LIMIT,
+A45,Health,Classifying Early Infant Feeding Status from Clinical Notes Using Natural Language Processing and Machine Learning,NOT_SELECTED,SAMPLE_LIMIT,
+A46,Demography,Combining Family History and Machine Learning to Link Historical Records: The Census Tree Data Set,SELECTED,STRATIFIED_SAMPLE,M032
+A47,Movies,Combining Provenance with Trust in Social Networks for Semantic Web Content Filtering,NOT_SELECTED,SAMPLE_LIMIT,
+A48,Health,Comparison of Multivariate Linear Regression and a Machine Learning Algorithm Developed for Prediction of Precision Warfarin Dosing in a Korean Population,NOT_SELECTED,SAMPLE_LIMIT,
+A49,Biology,Context and Prediction Matter for the Interpretation of Social Interactions Across Species,SELECTED,STRATIFIED_SAMPLE,M017
+A50,Health,COVID-19 Vaccination Intent and Willingness to Pay in Bangladesh: A Cross-Sectional Study,NOT_SELECTED,SAMPLE_LIMIT,
+A51,Finance,Credit Elasticities in Less-Developed Economies: Implications for Microfinance,SELECTED,STRATIFIED_SAMPLE,M002
+A52,Finance,Credit Scoring in the Era of Big Data,NOT_SELECTED,SAMPLE_LIMIT,
+A53,Marketing,Data-driven text features for sponsored search click prediction,NOT_SELECTED,SAMPLE_LIMIT,
+A54,Health,Decision support system for arrhythmia prediction using convolutional neural network structure without preprocessing,NOT_SELECTED,SAMPLE_LIMIT,
+A55,Health,Deep Learning Approach to Text Analysis for Human Emotion Detection from Big Data,NOT_SELECTED,SAMPLE_LIMIT,
+A56,Health,Deep Learning Classification of Cardiomegaly Using Combined Imaging and Non-imaging ICU Data,NOT_SELECTED,SAMPLE_LIMIT,
+A57,News,Distant Political News Classification: Facilitating Machine Learning Identification of News Topics Across Multilingual Text Corpora,SELECTED,STRATIFIED_SAMPLE,M005
+A58,Literature,Enhanced Emotion and Sentiment Recognition for Empathetic Dialogue System Using Big Data and Deep Learning Methods,SELECTED,STRATIFIED_SAMPLE,M047
+A59,Health,Epileptic Seizures Prediction Using Deep Learning Techniques,NOT_SELECTED,SAMPLE_LIMIT,
+A60,Marketing,Evaluation of Classification and Ensemble Algorithms for Bank Customer Marketing Response Prediction,SELECTED,STRATIFIED_SAMPLE,M039
+A61,Economics,Food insecurity as a predictor of metabolic syndrome in U.S. female adults,NOT_SELECTED,SAMPLE_LIMIT,
+A62,Finance,Forecasting Loss Given Default for Peer-to-Peer Loans via Heterogeneous Stacking Ensemble Approach,NOT_SELECTED,SAMPLE_LIMIT,
+A63,Health,Forecasting Patient Outcomes in Kidney Exchange,NOT_SELECTED,SAMPLE_LIMIT,
+A64,Management information systems,From Big Data to Deep Data to Support People Analytics for Employee Attrition Prediction,SELECTED,STRATIFIED_SAMPLE,M038
+A65,Music,Generating Smooth Mood-Dynamic Playlists with Audio Features and KNN,SELECTED,STRATIFIED_SAMPLE,M044
+A66,Finance,Home mortgage lending by applicant race: Do HMDA figures provide a distorted picture?,NOT_SELECTED,SAMPLE_LIMIT,
+A67,Economics,"Household Income, Pandemic-Related Income Loss, and the Probability of Anxiety and Depression",NOT_SELECTED,SAMPLE_LIMIT,
+A68,Computer vision,Human Emotion Detection Using DeepFace and Artificial Intelligence,SELECTED,STRATIFIED_SAMPLE,M040
+A69,Health,Infant birth weight estimation and low birth weight classification in United Arab Emirates using machine learning algorithms,NOT_SELECTED,SAMPLE_LIMIT,
+A70,Health,Machine learning algorithm for early detection of end-stage renal disease,NOT_SELECTED,SAMPLE_LIMIT,
+A71,Economics,Machine learning approach for multidimensional poverty estimation,NOT_SELECTED,SAMPLE_LIMIT,
+A72,Health,Machine learning based forecast for the prediction of inpatient bed demand,SELECTED,STRATIFIED_SAMPLE,M025
+A73,Education,PaRe: A Paper-Reviewer Matching Approach Using a Common Topic Space,SELECTED,STRATIFIED_SAMPLE,M021
+A74,Management information systems,Performance Predicting in Hiring Process and Performance Appraisals Using Machine Learning,NOT_SELECTED,SAMPLE_LIMIT,
+A75,Health,Predicting Diabetes Mellitus With Machine Learning Techniques,NOT_SELECTED,SAMPLE_LIMIT,
+A76,Health,Predicting sepsis with a recurrent neural network using the MIMIC III database,NOT_SELECTED,SAMPLE_LIMIT,
+A77,Education,Predicting Student Performance in Higher Educational Institutions Using Video Learning Analytics and Data Mining Techniques,NOT_SELECTED,SAMPLE_LIMIT,
+A78,Social work,Predicting Successful Placements for Youth in Child Welfare with Machine Learning,SELECTED,STRATIFIED_SAMPLE,M020
+A79,Social media,Preemptive Toxic Language Detection in Wikipedia Comments Using Thread-Level Context,SELECTED,STRATIFIED_SAMPLE,M003
+A80,Health,Psychosocial Factors Predict the Level of Aggression of People with Drug Addiction: A Machine Learning Approach,NOT_SELECTED,SAMPLE_LIMIT,
+A81,Education,Revolutionizing University Graduate Employability: Leveraging Advanced Machine Learning Models to Optimize Campus Recruitment and Placement Strategies,NOT_SELECTED,SAMPLE_LIMIT,
+A82,Economics,Risk Prediction in Automobile Insurance,NOT_SELECTED,SAMPLE_LIMIT,
+A83,Health,Short-Term and Long-Term Readmission Prediction in Uncontrolled Diabetic Patients using Machine Learning Techniques,NOT_SELECTED,SAMPLE_LIMIT,
+A84,Health,Skin Lesion Classification Based on Convolutional Neural Network,SELECTED,STRATIFIED_SAMPLE,M050
+A85,Computer vision,Student Attendance with Face Recognition (LBPH or CNN): Systematic Literature Review,SELECTED,STRATIFIED_SAMPLE,M010
+A86,Social media,Studying Political Bias via Word Embeddings,SELECTED,STRATIFIED_SAMPLE,M034
+A87,Social work,Substance Use and Sentiment and Topical Tendencies: A Study Using Social Media Conversations of Youth Experiencing Homelessness,NOT_SELECTED,SAMPLE_LIMIT,
+A88,Health,Supervised Machine Learning Models for Prediction of COVID-19 Infection using Epidemiology Dataset,NOT_SELECTED,SAMPLE_LIMIT,
+A89,Education,"Supporting Decision-Making Process on Higher Education Dropout by Analyzing Academic, Socioeconomic, and Equity Factors through Machine Learning and Survival Analysis Methods in the Latin American Context",SELECTED,STRATIFIED_SAMPLE,M049
+A90,Health,Textual emotion detection in health: Advances and applications,NOT_SELECTED,SAMPLE_LIMIT,
+A91,Economics,The Stealth Legitimization of a Controversial Policy Tool: Statistical Profiling in French Public Employment Service,NOT_SELECTED,SAMPLE_LIMIT,
+A92,Finance,Understanding and Promoting Micro-Finance Activities in Kiva.org,NOT_SELECTED,SAMPLE_LIMIT,
+A93,Transportation,"Understanding Ride-Hailing Sharing and Matching in Chicago Using Travel Time, Cost, and Choice Models",SELECTED,STRATIFIED_SAMPLE,M046
+A94,Library and information sciences,Unsupervised Differentiable Multi-aspect Network Embedding,SELECTED,STRATIFIED_SAMPLE,M031
+A95,Social work,Using a Machine Learning Tool to Support High-Stakes Decisions in Child Protection,NOT_SELECTED,SAMPLE_LIMIT,
+A96,Social work,Using Artificial Intelligence to Identify Emergency Messages on Social Media During a Natural Disaster: A Deep Learning Approach,NOT_SELECTED,SAMPLE_LIMIT,
+A97,Economics,Using Machine Learning for Automated Assessment of Misclassification of Goods for Fraud Detection,SELECTED,STRATIFIED_SAMPLE,M012
+A98,Social work,"Using Machine Learning to Identify Predictors of Sexually Transmitted Infections Over Time Among Young People Living With or at Risk for HIV Who Participated in ATN Protocols 147, 148, and 149",NOT_SELECTED,SAMPLE_LIMIT,
+A99,Urban studies,Using Mobile Device Traces to Improve Near-Real Time Data Collection During the George Floyd Protests,NOT_SELECTED,SAMPLE_LIMIT,
+A100,Literature,Who could be behind QAnon? Authorship attribution with supervised machine-learning,SELECTED,STRATIFIED_SAMPLE,M018
+A101,Social networks,You are who you know: inferring user profiles in online social networks,SELECTED,STRATIFIED_SAMPLE,M037

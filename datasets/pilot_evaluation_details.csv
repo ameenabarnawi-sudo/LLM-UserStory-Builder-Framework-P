@@ -1,0 +1,11 @@
+input_id,selected_attempt,initial_json_valid,initial_required_complete,initial_schema_valid,final_json_valid,final_required_complete,final_schema_valid,construction_success,construction_error
+P001,retry,false,false,false,true,true,true,true,
+P002,initial,true,true,true,true,true,true,true,
+P003,retry,false,false,false,true,true,true,true,
+P004,initial,true,true,true,true,true,true,true,
+P005,retry,false,false,false,true,true,true,true,
+P006,initial,true,true,true,true,true,true,true,
+P007,initial,true,true,true,true,true,true,true,
+P008,initial,true,true,true,true,true,true,true,
+P009,initial,true,true,true,true,true,true,true,
+P010,retry,false,false,false,true,true,false,false,SCHEMA_VALIDATION_FAILED

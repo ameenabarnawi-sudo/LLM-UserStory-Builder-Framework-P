@@ -1,0 +1,10 @@
+metric,count,total,percentage
+Initial JSON Validity,6,10,60.00
+Initial Required Completeness,6,10,60.00
+Initial Schema Validity,6,10,60.00
+Post-Retry JSON Validity,10,10,100.00
+Post-Retry Required Completeness,10,10,100.00
+Post-Retry Schema Validity,9,10,90.00
+Builder Construction Success,9,10,90.00
+Builder Construction Failure,1,10,10.00
+Retry Used,4,10,40.00

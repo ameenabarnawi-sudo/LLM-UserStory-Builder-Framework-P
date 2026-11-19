@@ -1,0 +1,6 @@
+metric,count,denominator,rate_percent
+JSON Validity,50,50,100.00
+Required-Field Completeness,50,50,100.00
+Schema Validity,42,50,84.00
+Overall Construction Success,42,50,84.00
+Builder Success Among Attempts,42,42,100.00

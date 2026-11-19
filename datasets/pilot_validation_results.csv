@@ -1,0 +1,157 @@
+input_id,attempt,model,http_status,finish_reason,json_valid,required_complete,schema_valid,markdown_fences,errors,generated_content
+P001,initial,openai/gpt-oss-20b,200,length,false,false,false,false,FINISH_REASON_length; INVALID_STORY_JSON,"{
+  ""role"": ""Credit risk analyst"",
+  ""goal"": ""develop a credit card default prediction model using random forest"",
+  ""benefit"": ""accurately assess credit risk and reduce default rates"",
+  ""acceptanceCriteria"": [
+    ""Model accuracy >= 80%"",
+    ""AUC >= 75%""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Credit card customer data pipeline"",
+  ""storyPoints"": 5"
+P002,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a recommendation system developer"",
+  ""goal"": ""I want to generate personalized recommendation justifications that are relevant to users' decision-making process"",
+  ""benefit"": ""so that users can better understand and trust the recommendations"",
+  ""acceptanceCriteria"": ""Justifications are relevant, diverse, and cover multiple aspects, and are evaluated positively by users"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Existing recommendation engine and user preference data"",
+  ""storyPoints"": 5
+}"
+P003,initial,openai/gpt-oss-20b,200,length,false,false,false,false,FINISH_REASON_length; INVALID_STORY_JSON,"{
+  ""role"": ""As a dating app user"",
+  ""goal"": ""to receive accurate match predictions based on objective ratings from speed dating events"",
+  ""benefit"": ""improved match accuracy and better user experience"",
+  ""acceptanceCriteria"": [
+    ""The recommender system uses an objective profile library derived from speed dating ratings"",
+    ""SMOTE oversampling is applied to address class imbalance in the dataset"",
+    ""A random forest regression-based reciprocal recommender is used to predict matches"",
+    ""The system achieves at least 92% match prediction accuracy""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""Speed dating dataset with objective ratings"",
+    ""SMOTE oversampling implementation"",
+   "
+P004,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Machine Learning Engineer"",
+  ""goal"": ""Implement a real‑time framework that detects aggressive behavior on Twitter using streaming machine learning"",
+  ""benefit"": ""Enables rapid identification of harmful content, improving user safety and platform moderation efficiency"",
+  ""acceptanceCriteria"": [
+    ""The framework processes incoming tweets in real time with a latency of less than 5 seconds per tweet"",
+    ""It achieves at least 90% accuracy, precision, and recall on a held‑out test set of annotated Twitter data"",
+    ""The system scales to handle the full Twitter Firehose (≈778 million tweets/day) using no more than 3 commodity machines"",
+    ""The incremental learning component adapts to new annotated examples without retraining from scratch""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to the Twitter Firehose and a stream processing platform (e.g., Apache Kafka or similar)"",
+  ""storyPoints"": 8
+}"
+P005,initial,openai/gpt-oss-20b,200,length,false,false,false,false,FINISH_REASON_length; INVALID_STORY_JSON,"{
+  ""role"": ""Sales Planner"",
+  ""goal"": ""to generate accurate weekly sales predictions for outgoing invoices using an ARIMA model on a data mart built on the data warehouse"",
+  ""benefit"": ""enables optimized sales and logistics planning, reducing"
+P006,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a patient with diabetes"",
+  ""goal"": ""I want to receive early warnings of impending hypoglycemic events so that I can take preventive action"",
+  ""benefit"": ""I can avoid serious short‑term and long‑term complications by adjusting insulin or eating before my blood glucose drops"",
+  ""acceptanceCriteria"": ""The system must alert the patient at least 30 minutes before a predicted hypoglycemic event, with a precision of at least 42%, and any false alarms must occur only in near‑hypoglycemic regions"",
+  ""priority"": ""High"",
+  ""dependencies"": """",
+  ""storyPoints"": 5
+}"
+P007,initial,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""Data Scientist"",
+  ""goal"": ""develop a deep learning framework to identify potential repurposed drug therapies for Alzheimer’s disease"",
+  ""benefit"": ""enable researchers to discover effective drug combinations that may improve treatment options for AD patients"",
+  ""acceptanceCriteria"": ""The AI-DrugNet model produces a ranked list of drug combinations with predictive performance that meets the predefined accuracy threshold for AD therapeutic candidates."",
+  ""priority"": ""High"",
+  ""dependencies"": ""Availability of drug-target interaction data and disease network information"",
+  ""storyPoints"": 5
+}
+```"
+P008,initial,openai/gpt-oss-20b,200,stop,true,true,true,true,,"```json
+{
+  ""role"": ""NLP engineer"",
+  ""goal"": ""build a multi-task learning model that jointly learns sentiment, sarcasm, and stance detection to improve stance detection performance on social media text"",
+  ""benefit"": ""improved stance detection accuracy, enabling better analysis of user-generated content"",
+  ""acceptanceCriteria"": ""The model must achieve state‑of‑the‑art results on benchmark datasets in English and Arabic, outperforming baseline models"",
+  ""priority"": ""High"",
+  ""dependencies"": ""Access to benchmark datasets and a Transformer‑based architecture framework"",
+  ""storyPoints"": 13
+}
+```"
+P009,initial,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""journalist"",
+  ""goal"": ""search for precise facts in news articles using a semantic search engine that leverages Wikidata annotations"",
+  ""benefit"": ""enables faster and more accurate fact‑checking and contextual research"",
+  ""acceptanceCriteria"": [
+    ""The search engine supports keyword‑based search across news articles"",
+    ""The search engine provides structured data filters based on inferred event schemas"",
+    ""Search results include articles annotated with Wikidata properties relevant to the query"",
+    ""The system returns results within acceptable performance thresholds""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Wikidata integration and semantic annotation pipeline"",
+  ""storyPoints"": 5
+}"
+P010,initial,openai/gpt-oss-20b,429,,false,false,false,false,API_ERROR_429,
+P001,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a credit risk analyst"",
+  ""goal"": ""to develop a credit card default prediction model using random forest"",
+  ""benefit"": ""to reduce default rates and improve risk management"",
+  ""acceptanceCriteria"": [
+    ""Model accuracy >= 80%"",
+    ""AUC >= 75%""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": ""Credit card customer data pipeline"",
+  ""storyPoints"": 5
+}"
+P003,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""As a dating app user"",
+  ""goal"": ""to receive accurate match predictions based on objective ratings from speed dating events"",
+  ""benefit"": ""improved match accuracy and better user experience"",
+  ""acceptanceCriteria"": [
+    ""The recommender system uses an objective profile library derived from speed dating ratings"",
+    ""SMOTE oversampling is applied to address class imbalance in the dataset"",
+    ""A random forest regression-based reciprocal recommender is used to predict matches"",
+    ""The system achieves at least 92% match prediction accuracy""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""Speed dating dataset with objective ratings"",
+    ""SMOTE oversampling implementation"",
+    ""Random forest regression implementation""
+  ],
+  ""storyPoints"": 5
+}"
+P005,retry,openai/gpt-oss-20b,200,stop,true,true,true,false,,"{
+  ""role"": ""Sales Planner"",
+  ""goal"": ""to generate accurate weekly sales predictions for outgoing invoices using an ARIMA model"",
+  ""benefit"": ""enables optimized sales and logistics planning, reducing costs and maximizing revenue"",
+  ""acceptanceCriteria"": [
+    ""Data mart built on top of the data warehouse and receives daily loads of outgoing invoices and uninvoiced shipments"",
+    ""Data is aggregated on a weekly level and includes product, sales market, customer, quantity, and date"",
+    ""ARIMA model predictions are produced for each product and available for planning purposes"",
+    ""Predictions are validated against actual invoice data and meet a predefined accuracy threshold"",
+    ""Data preparation steps are documented and reproducible""
+  ],
+  ""priority"": ""High"",
+  ""dependencies"": [
+    ""Operational data warehouse"",
+    ""Daily data ingestion pipeline for invoices and shipments""
+  ],
+  ""storyPoints"": 5
+}"
+P010,retry,openai/gpt-oss-20b,200,stop,true,true,false,false,INVALID_TYPE_storyPoints,"{
+  ""role"": ""search engine engineer"",
+  ""goal"": ""differentiate advertisements on internet pages"",
+  ""benefit"": ""improves search engine relevance, enhances internet security, and supports educational content filtering"",
+  ""acceptanceCriteria"": """",
+  ""priority"": """",
+  ""dependencies"": """",
+  ""storyPoints"": """"
+}"
