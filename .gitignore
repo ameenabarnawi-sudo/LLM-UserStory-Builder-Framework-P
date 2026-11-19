@@ -4,3 +4,7 @@ target/
 compile.log
 classpath.txt
 .env
+
+# Llama comparison (work in progress)
+src/main/java/edu/research/userstory/llm/LlamaUserStoryGenerator.java
+datasets/llama_llm_results.csv
